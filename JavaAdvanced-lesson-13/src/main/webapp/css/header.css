@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.logoName{
+	font-size: 30px;
+	color: #1161ee;
+
+}
+.loggedIn{
+	margin-right: 20px;
+}
+.loggedInName{
+	text-decoration: underline;
+	color: #1161ee;
+}
+
+.navbar{
+	background: rgb(6 26 26 / 90%);
+}
+@media (min-width: 1500px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1499px;
+}}
+.headerBucket{
+	max-width: 80%;
+}
+.bucketHolder{
+	width:40px;
+	margin-left: 75%;
+}

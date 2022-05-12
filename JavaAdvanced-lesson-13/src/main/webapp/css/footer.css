@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,800);
+
+
+body{ 
+height:100vh; 
+margin:0; 
+
+}
+footer{
+  margin-top:auto; 
+ 
+}
+
+#page-content{ 
+  display:flex; 
+  flex-direction:column; 
+   
+}
+#sticky-footer{
+	background: rgb(6 26 26 / 90%);
+}

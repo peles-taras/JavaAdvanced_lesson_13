@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.form-style-6{
+	font: 120% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #1161ee;
+	padding: 20px 0;
+	font-size: 150%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #1161ee;
+	padding: 3%;
+	border: 1px solid #1161ee;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #1161ee;
+	border-bottom: 2px solid #1161ee;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #1161ee;
+}
+.createProduct{
+	width: 150px;
+	height: 45px;
+	background: #1161ee;
+	color: #fff;
+	border-radius: 25px;
+	border: none;
+	display: flex;
+	margin: 0 auto;
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+	
+}
+.form-style-6{
+	margin: auto auto;
+	max-width: 500px;
+	border-radius: 25px;
+}
+.name, .price{
+	height: 50px;
+}
+.description{
+	height: 100px;
+}
+.alert{
+	background: #1161ee;
+	border-color: #1161ee;
+	border-radius: 25px;	
+	color: white;
+	transition: all .2s ease-in-out 0s;
+	margin: 0 auto;
+	display: none;
+}
+.close{
+	border: none;
+	background-color: #1161ee;
+}
